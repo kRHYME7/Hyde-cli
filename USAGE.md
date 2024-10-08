@@ -246,7 +246,7 @@ Usage: Hyde [Function] [options]
 
 			 [search]  ↪️  [*] Web Search
   			                 💡supports shorthand e.g 'g: some thing' (this uses google.com to search for 'some thing')
-  			                 💡':' is use as delimter
+  			                 💡':' is use as delimiter
   			                 💡Custom search-engines should be in 'search.lst' and be declared inside ./hyde.conf ( e.g search_file="$HOME/.config/hyde/search.lst" )
 
 						[--reset] ↪️ 	Reset cache
@@ -256,8 +256,8 @@ Usage: Hyde [Function] [options]
  
 [run]                       ↪️ Executable utilities
 
-			 [airplane_mode]  ↪️  Toogle airplane mode
-  			                 	💡Toogles wifi
+			 [airplane_mode]  ↪️  Toggle airplane mode
+  			                 	💡Toggles wifi
 
 			 [audio_idle]  ↪️  Inhibits idle when player status: 'Playing
 

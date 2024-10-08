@@ -856,7 +856,7 @@ USAGE
 	screencap) #? Use rofi to select screenshot options \n !!  kills another rofi session
 		Launch-Screencap
 		;;
-	search) #? [*] Web Search\nﯦ supports shorthand e.g 'g: some thing' (this uses google.com to search for 'some thing')\nﯦ ':' is use as delimter\nﯦ Custom search-engines should be in 'search.lst' and be declared inside ./hyde.conf ( e.g search_file="$HOME/.config/hyde/search.lst" ) 
+	search) #? [*] Web Search\nﯦ supports shorthand e.g 'g: some thing' (this uses google.com to search for 'some thing')\nﯦ ':' is use as delimiter\nﯦ Custom search-engines should be in 'search.lst' and be declared inside ./hyde.conf ( e.g search_file="$HOME/.config/hyde/search.lst" ) 
 
 	shift
 		Launch-Search "${@}"
@@ -879,7 +879,7 @@ USAGE
 run() { #? Executable utilities
 	case $1 in
 
-	airplane_mode) #? Toogle airplane mode\n\tﯦ Toogles wifi 
+	airplane_mode) #? Toggle airplane mode\n\tﯦ Toogles wifi 
 	airplane-mode
 	;;
 	audio_idle) #? Inhibits idle when player status: 'Playing
@@ -904,7 +904,7 @@ run() { #? Executable utilities
     --scan          ?  Use 'tesseract' to scan image then add to clipboard
     --stop          ?  Stop every instance of Screencap
     --reset         ?  Reinitialize 
-    --deps          ?  Chek and resolve dependencies
+    --deps          ?  Check and resolve dependencies
 [END]
 USAGE
 		;;
